@@ -1,0 +1,62 @@
+.div-e-clientes {
+    height: 10rem;
+}
+
+.div-e-clientes-children {
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px 0px 0px 0px;
+    border: 1px solid #d6d7db;
+}
+
+.div-e-clientes-children-clientes {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.p-element-cliente-1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #1C1D25;
+}
+
+.p-element-cliente-2 {
+    color: #1C1D25;
+    font-weight: bold;
+}
+
+.icon-users-total {
+    font-size: 60px;
+    color: #5C8BCC;
+}
+
+.link-e-clientes {
+    text-align: center;
+    background-color: #1C1D25;
+    border-radius: 0 0 20px 20px;
+}
+
+.a-link-redirect {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.a-link-redirect:hover {
+    color: orange;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+@media (min-width: 760px) {}
+
+@media (min-width: 1025px) {}
