@@ -1,27 +1,19 @@
-.div-container-login {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
 .div-login {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70vw;
     height: 80vh;
     background: #1C1D25;
-    width: 450px;
     flex-direction: column;
 }
 
 .div-login-elements {
     background-color: white;
     padding: 2rem;
-    width: 450px;
+    width: 100%;
     height: 100%;
     clip-path: ellipse(90% 90% at 65% 7%);
+    border: 1px solid #E3E3E3;
 }
 
 .titulo-login {
@@ -105,20 +97,13 @@
     font-size: 12px;
 }
 
-.div-container-registra {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .div-registra {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55vw;
     background: #1C1D25;
     flex-direction: column;
-    margin: 3rem 0px;
+    margin: 0rem 0px;
 }
 
 .div-registra-elements {
@@ -127,6 +112,7 @@
     width: 100%;
     height: 100%;
     clip-path: ellipse(135% 87% at 55% 12%);
+    border: 1px solid #E3E3E3;
 }
 
 .div-bottom-custom-registra {
